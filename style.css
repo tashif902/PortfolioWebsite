@@ -1,0 +1,130 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: blue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00b3b3;
+}
+
+footer {
+    background-color: #333;
+    color: beige;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.home .intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.home h1 {
+    font-size: 2.5em;
+}
+
+.home p {
+    font-size: 1.2em;
+}
+
+
+.about {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.contact {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #00b3b3;
+}
+
+
+.projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    height: 150px; /* You can adjust this height */
+    object-fit: cover; /* or use "contain" if you want to see the full image */
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
